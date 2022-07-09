@@ -21,13 +21,14 @@ const ProfileCard = () => {
                     <span>Following</span>
                 </div>
                 <div className="vl"></div>
-                <div className="followers">
-                    <span>1B</span>
+                <div className="follow">
+                    <span>999</span>
                     <span>Followers</span>
                 </div>
             </div>
             <hr/>
         </div>
+        <span>My Profile</span>
     </div>
   )
 }

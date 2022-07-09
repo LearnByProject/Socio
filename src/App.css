@@ -27,3 +27,19 @@
   background: #a6ddf0;
   filter: blur(70px);
 } */
+.button{
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 0.5rem;
+  color: white;
+  justify-content: center;
+  background: var(--buttonBg);
+  transition:all 100ms ease-in-out;
+}
+.button:hover{
+  cursor: pointer;
+  color: var(--orange);
+  background: transparent;
+  border: 2px solid var(--orange);
+}
