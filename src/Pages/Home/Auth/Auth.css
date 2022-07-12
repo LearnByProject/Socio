@@ -54,3 +54,18 @@
     height: 2rem;
     width: 90%;
 }
+.infoButton{
+    width: 6rem;
+    height: 2rem;
+    align-self:end;
+}
+.authform{
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: var(--cardColor);
+}
+.authform>div{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
