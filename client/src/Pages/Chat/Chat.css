@@ -1,6 +1,7 @@
 .Chat {
     position: relative;
     display: grid;
+    background-image: var("D:\Github\Socio\client\src\img\cool-background.png");
     grid-template-columns: 22% auto;
     gap: 1rem;
   }
