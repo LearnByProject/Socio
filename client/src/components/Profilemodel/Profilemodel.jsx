@@ -75,7 +75,7 @@ function Profilemodel({ modalOpened, setModalOpened, data }) {
           <input
             type="text"
             className="infoInput"
-            name="FirstName"
+            name="firstname"
             placeholder="First Name"
             onChange={handleChange}
           />
@@ -83,7 +83,7 @@ function Profilemodel({ modalOpened, setModalOpened, data }) {
           <input
             type="text"
             className="infoInput"
-            name="LastName"
+            name="lastname"
             placeholder="Last Name"
             onChange={handleChange}
           />
@@ -93,7 +93,7 @@ function Profilemodel({ modalOpened, setModalOpened, data }) {
           <input
             type="text"
             className="infoInput"
-            name="WorksAt"
+            name="worksAt"
             placeholder="Works At"
             onChange={handleChange}
           />
@@ -103,7 +103,7 @@ function Profilemodel({ modalOpened, setModalOpened, data }) {
           <input
             type="text"
             className="infoInput"
-            name="livesIn"
+            name="livesin"
             placeholder="Lives In"
             onChange={handleChange}
           />
@@ -111,7 +111,7 @@ function Profilemodel({ modalOpened, setModalOpened, data }) {
           <input
             type="text"
             className="infoInput"
-            name="Country"
+            name="country"
             placeholder="Country"
             onChange={handleChange}
           />
@@ -121,6 +121,7 @@ function Profilemodel({ modalOpened, setModalOpened, data }) {
           <input
             type="text"
             className="infoInput"
+            name='relationship'
             placeholder="RelationShip Status"
             onChange={handleChange}
           />
@@ -129,9 +130,9 @@ function Profilemodel({ modalOpened, setModalOpened, data }) {
 
         <div>
           Profile Image
-          <input type="file" name='profileImg' onChange={onImageChange}/>
+          <input type="file" name='Profilepicture' onChange={onImageChange}/>
           Cover Image
-          <input type="file" name="coverImg" onChange={onImageChange}/>
+          <input type="file" name="coverpicture" onChange={onImageChange}/>
         </div>
 
         <button type='submit' className="button infoButton">Update</button>

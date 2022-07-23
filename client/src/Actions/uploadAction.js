@@ -6,7 +6,7 @@ export const uploadImage = (data) => async(dispatch)=>{
     } catch (error) {
         console.log(error)
     }
-}
+};
 
 export const uploadPost = (data) => async (dispatch)=>{
     dispatch({type:"UPLOAD_START"});
@@ -17,4 +17,4 @@ export const uploadPost = (data) => async (dispatch)=>{
         console.log(error)
         dispatch({type : "UPLOAD_FAILURE"})
     }
-}
+};

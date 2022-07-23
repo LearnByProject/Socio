@@ -1,6 +1,6 @@
 import UserModel from "../Models/userModel.js";
 import bcrypt from "bcrypt";
-import jwt from 'jsonwebtoken'
+import jwt from 'jsonwebtoken';
 // export const getUser = async (req, res) => {
 //   const id = req.params.id;
 
@@ -199,7 +199,7 @@ export const updateUser = async (req, res) => {
       });
       const token = jwt.sign(
         { username: user.username, id: user._id },
-        process.env.JWTKEY,
+        process.env.JWT_KEY,
         { expiresIn: "1h" }
       );
       console.log({user, token})

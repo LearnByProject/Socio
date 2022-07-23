@@ -42,19 +42,19 @@ const InfoCard = () => {
       </div>
       <div className="info">
         <span>
-          <b>Status</b>
+          <b>Status : </b>
         </span>
         <span>{profileUser.relationship}</span>
       </div>
       <div className="info">
         <span>
-          <b>Lives</b>
+          <b>Lives : </b>
         </span>
         <span>{profileUser.livesIn}</span>
       </div>
       <div className="info">
         <span>
-          <b>Work</b>
+          <b>Work : </b>
         </span>
         <span>{profileUser.worksAt}</span>
       </div>
