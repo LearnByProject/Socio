@@ -52,8 +52,8 @@ import React, { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { followUser, unfollowUser } from "../Actions/UserAction";
 const User = ({ person }) => {
-  // const publicFolder = process.env.REACT_APP_PUBLIC_FOLDER;
-  const publicFolder = "http://localhost:5000/images/"
+  const publicFolder = process.env.REACT_APP_PUBLIC_FOLDER;
+  // const publicFolder = "http://localhost:5000/images/"
   const { user } = useSelector((state) => state.authReducer.authData);
   const dispatch = useDispatch()
   
@@ -80,7 +80,7 @@ const User = ({ person }) => {
           className="followerImage"
         />
         <div className="name">
-          <span>{person.firstname}</span>
+          <span>{person.firstname}<br></br></span>
           <span>@{person.username}</span>
         </div>
       </div>

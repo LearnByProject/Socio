@@ -130,9 +130,9 @@ function Profilemodel({ modalOpened, setModalOpened, data }) {
 
         <div>
           Profile Image
-          <input type="file" name='Profilepicture' onChange={onImageChange}/>
+          <input type="file" name='profilePicture' onChange={onImageChange}/>
           Cover Image
-          <input type="file" name="coverpicture" onChange={onImageChange}/>
+          <input type="file" name="coverPicture" onChange={onImageChange}/>
         </div>
 
         <button type='submit' className="button infoButton">Update</button>
